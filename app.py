@@ -8,7 +8,7 @@ from datetime import datetime
 
 st.set_page_config(page_title="Генератор курсовой ЭБ", layout="centered")
 
-st.title("📘 Генератор курсовой работы (строго по МР СПбУ МВД 2026)")
+st.title("Генератор курсовой работы (строго по МР СПбУ МВД 2026)")
 
 with st.form("course_form"):
     title = st.text_area("Тема курсовой работы", 
